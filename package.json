@@ -10,14 +10,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
     "@react-native-community/masked-view": "^0.1.10",
+    "axios": "^0.19.2",
     "react": "16.13.1",
     "react-native": "0.63.0",
     "react-native-gesture-handler": "^1.6.1",
+    "react-native-gifted-chat": "^0.16.3",
     "react-native-safe-area-context": "^3.1.1",
     "react-native-screens": "^2.9.0",
+    "react-native-simple-toast": "^1.1.2",
     "react-navigation": "^4.4.0",
-    "react-navigation-stack": "^2.8.2"
+    "react-navigation-stack": "^2.8.2",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "7.10.4",
@@ -31,5 +39,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandandas27/Chat-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandandas27/Chat-Application/issues"
+  },
+  "homepage": "https://github.com/chandandas27/Chat-Application#readme",
+  "description": ""
 }
